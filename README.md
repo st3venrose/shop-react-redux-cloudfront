@@ -1,3 +1,9 @@
+**[Cloudfront URL](https://dksiog0j5pkzs.cloudfront.net/)**
+
+**[S3-website URL (should return 403)](http://node-in-aws-web-bucket-mixed-shop.s3-website.eu-central-1.amazonaws.com/)**
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
