@@ -17,6 +17,14 @@ axios.interceptors.response.use(
       alert(error.response.data?.data);
     }
 
+    if (error?.response?.status === 401) {
+      alert('Unauthorized!');
+    }
+
+    if (error?.response?.status === 403) {
+      alert(`${error?.response?.data?.message} - status code: 403`);
+    }
+
     return Promise.reject(error?.response ?? error);
   }
 );
